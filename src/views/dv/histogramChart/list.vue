@@ -108,7 +108,7 @@ export default {
           // }
         ],
         tooltip: {
-          trigger: "item", //触发类型,数据项图形触发，主要在散点图，饼图等无类目轴的图表中使用。
+          trigger: "axis", //触发类型,数据项图形触发，主要在散点图，饼图等无类目轴的图表中使用。
           axisPointer: {
             //指示器类型。
             type: "shadow"
@@ -183,6 +183,7 @@ export default {
         yAxis: {
           //y轴
           type: "value",
+          min: '0.8',
           splitArea: {
             //坐标轴在 grid 区域中的分隔区域，默认不显示。
             //show: true
